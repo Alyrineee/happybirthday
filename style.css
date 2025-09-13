@@ -1,0 +1,414 @@
+:root {
+    --bg: rgb(39, 39, 39);
+    --text: #ffffff;
+    --meta: #686c72;
+    --shadow: rgba(0, 0, 0, .15);
+}
+
+body {
+    margin: 0;
+    font: 16px/1.35 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background: #e7edf3;
+    padding: 24px;
+}
+html.theme-dark {
+    html.theme-dark {
+    --color-peer-7: #ff9380;
+    --color-peer-bg-7: #ff93801a;
+    --color-peer-bg-active-7: #ff93802b;
+    --color-peer-gradient-7: repeating-linear-gradient(-45deg, #ff9380 0px, #ff9380 5px, #992f37 5px, #992f37 10px);
+    --color-peer-8: #ecb04e;
+    --color-peer-bg-8: #ecb04e1a;
+    --color-peer-bg-active-8: #ecb04e2b;
+    --color-peer-gradient-8: repeating-linear-gradient(-45deg, #ecb04e 0px, #ecb04e 5px, #c35714 5px, #c35714 10px);
+    --color-peer-9: #c697ff;
+    --color-peer-bg-9: #c697ff1a;
+    --color-peer-bg-active-9: #c697ff2b;
+    --color-peer-gradient-9: repeating-linear-gradient(-45deg, #c697ff 0px, #c697ff 5px, #5e31c8 5px, #5e31c8 10px);
+    --color-peer-10: #a7eb6e;
+    --color-peer-bg-10: #a7eb6e1a;
+    --color-peer-bg-active-10: #a7eb6e2b;
+    --color-peer-gradient-10: repeating-linear-gradient(-45deg, #a7eb6e 0px, #a7eb6e 5px, #167e2d 5px, #167e2d 10px);
+    --color-peer-11: #40d8d0;
+    --color-peer-bg-11: #40d8d01a;
+    --color-peer-bg-active-11: #40d8d02b;
+    --color-peer-gradient-11: repeating-linear-gradient(-45deg, #40d8d0 0px, #40d8d0 5px, #045c7f 5px, #045c7f 10px);
+    --color-peer-12: #52bfff;
+    --color-peer-bg-12: #52bfff1a;
+    --color-peer-bg-active-12: #52bfff2b;
+    --color-peer-gradient-12: repeating-linear-gradient(-45deg, #52bfff 0px, #52bfff 5px, #0b5494 5px, #0b5494 10px);
+    --color-peer-13: #ff86a6;
+    --color-peer-bg-13: #ff86a61a;
+    --color-peer-bg-active-13: #ff86a62b;
+    --color-peer-gradient-13: repeating-linear-gradient(-45deg, #ff86a6 0px, #ff86a6 5px, #8e366e 5px, #8e366e 10px);
+    --color-peer-14: #3fa2fe;
+    --color-peer-bg-14: #3fa2fe1a;
+    --color-peer-bg-active-14: #3fa2fe2b;
+    --color-peer-gradient-14: repeating-linear-gradient(-45deg, #3fa2fe 0px, #3fa2fe 5px, #e5424f 5px, #e5424f 10px, #ffffff 10px, #ffffff 15px);
+    --color-peer-15: #ff905e;
+    --color-peer-bg-15: #ff905e1a;
+    --color-peer-bg-active-15: #ff905e2b;
+    --color-peer-gradient-15: repeating-linear-gradient(-45deg, #ff905e 0px, #ff905e 5px, #32a527 5px, #32a527 10px, #ffffff 10px, #ffffff 15px);
+    --color-peer-16: #66d364;
+    --color-peer-bg-16: #66d3641a;
+    --color-peer-bg-active-16: #66d3642b;
+    --color-peer-gradient-16: repeating-linear-gradient(-45deg, #66d364 0px, #66d364 5px, #d5444f 5px, #d5444f 10px, #ffffff 10px, #ffffff 15px);
+    --color-peer-17: #22bce2;
+    --color-peer-bg-17: #22bce21a;
+    --color-peer-bg-active-17: #22bce22b;
+    --color-peer-gradient-17: repeating-linear-gradient(-45deg, #22bce2 0px, #22bce2 5px, #3da240 5px, #3da240 10px, #ffffff 10px, #ffffff 15px);
+    --color-peer-18: #22bce2;
+    --color-peer-bg-18: #22bce21a;
+    --color-peer-bg-active-18: #22bce22b;
+    --color-peer-gradient-18: repeating-linear-gradient(-45deg, #22bce2 0px, #22bce2 5px, #ff9778 5px, #ff9778 10px, #ffda6b 10px, #ffda6b 15px);
+    --color-peer-19: #9791ff;
+    --color-peer-bg-19: #9791ff1a;
+    --color-peer-bg-active-19: #9791ff2b;
+    --color-peer-gradient-19: repeating-linear-gradient(-45deg, #9791ff 0px, #9791ff 5px, #f2731d 5px, #f2731d 10px, #ffdb59 10px, #ffdb59 15px);
+    --color-peer-20: #3da6eb;
+    --color-peer-bg-20: #3da6eb1a;
+    --color-peer-bg-active-20: #3da6eb2b;
+    --color-peer-gradient-20: repeating-linear-gradient(-45deg, #3da6eb 0px, #3da6eb 5px, #eea51d 5px, #eea51d 10px, #ffffff 10px, #ffffff 15px);
+}
+}
+.message {
+    position: relative;
+    max-width: 560px;
+    margin: 0 0 12px 0; /* отступ между сообщениями */
+}
+
+.sender-title {
+    color: #2481cc; /* цвет ника */
+}
+.sender-title2 {
+    color: #cc2467; /* цвет ника */
+}
+.sender-title3 {
+    color: #24cc6d; /* цвет ника */
+}
+.sender-title4 {
+    color: #ccb024; /* цвет ника */
+}
+.sender-title5 {
+    color: #cc7e24; /* цвет ника */
+}
+.bubble {
+    position: relative;
+    display: inline-block;
+    border-radius: 16px 16px 4px 16px; /* правый низ «срезан» под хвостик */
+    padding: 10px 40px 12px 12px;      /* справа запас под мету */
+    color: var(--text);
+    background: var(--bg);
+    box-shadow: 0 1px 6px var(--shadow);
+}
+
+.text {
+    word-wrap: break-word;
+}
+
+.meta {
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+    font-size: 12px;
+    line-height: 1;
+    color: var(--meta);
+}
+
+.appendix {
+    position: absolute;
+    right: -1px;
+    bottom: 0;
+    width: 9px;
+    height: 20px;
+    pointer-events: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+.ThfRMqwq {
+    position: relative;
+}
+
+/* Базовые параметры псевдоэлемента как у Telegram */
+.ThfRMqwq::before {
+    content:"";
+    position:absolute;
+    inset:0;
+    pointer-events:none;
+    background-repeat:no-repeat;
+    background-position: top right;
+    background-size:510px auto;
+    mix-blend-mode:overlay; /* для светлой темы */
+}
+
+/* Светлая тема */
+html:not(.theme-dark) .ThfRMqwq::before {
+    background-image:url("https://web.telegram.org/a/chat-bg-pattern-light.ee148af944f6580293ae.png");
+}
+
+/* Тёмная тема */
+html.theme-dark .ThfRMqwq::before {
+    background-image:url("https://web.telegram.org/a/chat-bg-pattern-dark.ad38368a9e8140d0ac7d.png");
+    mix-blend-mode:unset;
+}
+
+html, body {
+    height: auto;
+    min-height: 100%;
+    margin: 0;
+}
+
+body.ThfRMqwq {
+    --theme-background-color: #0F0F0F;
+    background: var(--theme-background-color);
+    color: #fff;
+    font: 16px/1.35 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    position: relative;
+    overflow: visible;
+
+}
+
+body.ThfRMqwq::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background-image: url("https://web.telegram.org/a/chat-bg-pattern-dark.ad38368a9e8140d0ac7d.png");
+    background-repeat: repeat;
+    background-size:  700px auto;
+    opacity: 0.5;
+}
+
+.demo {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.message{
+    opacity: 0;
+    transform: translateY(8px);
+    filter: blur(2px);
+    transition: opacity .1s ease, transform .1s ease, filter .1s ease;
+}
+.message.show{
+    opacity: 1;
+    transform: none;
+    filter: blur(0);
+}
+
+/* Общий контейнер */
+.MiddleHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 8px 12px;
+  background: #1f1f1f;       /* плотный фон */
+  color: #fff;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* тонкая линия */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);             /* лёгкая тень */
+
+  z-index: 1000; /* поверх сообщений */
+}
+body {
+  padding-top: 70px; /* отступ под высоту шапки */
+}
+
+/* Левая часть (назад + инфо) */
+.Transition {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Кнопка назад */
+.back-button .Button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: rgb(255, 255, 255);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.back-button .Button:hover {
+  background: rgb(255, 255, 255);
+}
+
+/* Инфо чата */
+.chat-info-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.ChatInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Avatar {
+  --_size: 44px;
+  width: var(--_size);
+  height: var(--_size);
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.Avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Заголовок и статус */
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info .title h3 {
+  font-size: 16px;
+  margin: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.info .status {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Правая часть (иконки) */
+.header-tools {
+  display: flex;
+  align-items: center;
+}
+
+.HeaderActions {
+  display: flex;
+  gap: 8px;
+}
+
+.HeaderActions .Button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.HeaderActions .Button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.icon {
+  font-size: 18px;
+}
+html.theme-dark {
+    html.theme-dark {
+    --color-peer-7: #ff9380;
+    --color-peer-bg-7: #ff93801a;
+    --color-peer-bg-active-7: #ff93802b;
+    --color-peer-gradient-7: repeating-linear-gradient(-45deg, #ff9380 0px, #ff9380 5px, #992f37 5px, #992f37 10px);
+    --color-peer-8: #ecb04e;
+    --color-peer-bg-8: #ecb04e1a;
+    --color-peer-bg-active-8: #ecb04e2b;
+    --color-peer-gradient-8: repeating-linear-gradient(-45deg, #ecb04e 0px, #ecb04e 5px, #c35714 5px, #c35714 10px);
+    --color-peer-9: #c697ff;
+    --color-peer-bg-9: #c697ff1a;
+    --color-peer-bg-active-9: #c697ff2b;
+    --color-peer-gradient-9: repeating-linear-gradient(-45deg, #c697ff 0px, #c697ff 5px, #5e31c8 5px, #5e31c8 10px);
+    --color-peer-10: #a7eb6e;
+    --color-peer-bg-10: #a7eb6e1a;
+    --color-peer-bg-active-10: #a7eb6e2b;
+    --color-peer-gradient-10: repeating-linear-gradient(-45deg, #a7eb6e 0px, #a7eb6e 5px, #167e2d 5px, #167e2d 10px);
+    --color-peer-11: #40d8d0;
+    --color-peer-bg-11: #40d8d01a;
+    --color-peer-bg-active-11: #40d8d02b;
+    --color-peer-gradient-11: repeating-linear-gradient(-45deg, #40d8d0 0px, #40d8d0 5px, #045c7f 5px, #045c7f 10px);
+    --color-peer-12: #52bfff;
+    --color-peer-bg-12: #52bfff1a;
+    --color-peer-bg-active-12: #52bfff2b;
+    --color-peer-gradient-12: repeating-linear-gradient(-45deg, #52bfff 0px, #52bfff 5px, #0b5494 5px, #0b5494 10px);
+    --color-peer-13: #ff86a6;
+    --color-peer-bg-13: #ff86a61a;
+    --color-peer-bg-active-13: #ff86a62b;
+    --color-peer-gradient-13: repeating-linear-gradient(-45deg, #ff86a6 0px, #ff86a6 5px, #8e366e 5px, #8e366e 10px);
+    --color-peer-14: #3fa2fe;
+    --color-peer-bg-14: #3fa2fe1a;
+    --color-peer-bg-active-14: #3fa2fe2b;
+    --color-peer-gradient-14: repeating-linear-gradient(-45deg, #3fa2fe 0px, #3fa2fe 5px, #e5424f 5px, #e5424f 10px, #ffffff 10px, #ffffff 15px);
+    --color-peer-15: #ff905e;
+    --color-peer-bg-15: #ff905e1a;
+    --color-peer-bg-active-15: #ff905e2b;
+    --color-peer-gradient-15: repeating-linear-gradient(-45deg, #ff905e 0px, #ff905e 5px, #32a527 5px, #32a527 10px, #ffffff 10px, #ffffff 15px);
+    --color-peer-16: #66d364;
+    --color-peer-bg-16: #66d3641a;
+    --color-peer-bg-active-16: #66d3642b;
+    --color-peer-gradient-16: repeating-linear-gradient(-45deg, #66d364 0px, #66d364 5px, #d5444f 5px, #d5444f 10px, #ffffff 10px, #ffffff 15px);
+    --color-peer-17: #22bce2;
+    --color-peer-bg-17: #22bce21a;
+    --color-peer-bg-active-17: #22bce22b;
+    --color-peer-gradient-17: repeating-linear-gradient(-45deg, #22bce2 0px, #22bce2 5px, #3da240 5px, #3da240 10px, #ffffff 10px, #ffffff 15px);
+    --color-peer-18: #22bce2;
+    --color-peer-bg-18: #22bce21a;
+    --color-peer-bg-active-18: #22bce22b;
+    --color-peer-gradient-18: repeating-linear-gradient(-45deg, #22bce2 0px, #22bce2 5px, #ff9778 5px, #ff9778 10px, #ffda6b 10px, #ffda6b 15px);
+    --color-peer-19: #9791ff;
+    --color-peer-bg-19: #9791ff1a;
+    --color-peer-bg-active-19: #9791ff2b;
+    --color-peer-gradient-19: repeating-linear-gradient(-45deg, #9791ff 0px, #9791ff 5px, #f2731d 5px, #f2731d 10px, #ffdb59 10px, #ffdb59 15px);
+    --color-peer-20: #3da6eb;
+    --color-peer-bg-20: #3da6eb1a;
+    --color-peer-bg-active-20: #3da6eb2b;
+    --color-peer-gradient-20: repeating-linear-gradient(-45deg, #3da6eb 0px, #3da6eb 5px, #eea51d 5px, #eea51d 10px, #ffffff 10px, #ffffff 15px);
+}
+}
+
+.MiddleHeader .ChatInfo .Avatar, .MiddleHeader .topic-header-icon {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    margin-right: .625rem;
+}
+.Avatar.forum {
+    --radius: var(--border-radius-forum-avatar);
+}
+.Avatar>.inner {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--radius);
+    background-image: linear-gradient(#ffffff -300%, rgb(135,116,225));
+}
