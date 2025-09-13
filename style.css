@@ -212,19 +212,18 @@ body.ThfRMqwq::before {
   align-items: center;
 
   padding: 8px 12px;
-  background: #1f1f1f;       /* плотный фон */
+  background: #1f1f1f;
   color: #fff;
 
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* тонкая линия */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.3);             /* лёгкая тень */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 
-  z-index: 1000; /* поверх сообщений */
+  z-index: 1000;
 }
 body {
-  padding-top: 70px; /* отступ под высоту шапки */
+  padding-top: 70px;
 }
 
-/* Левая часть (назад + инфо) */
 .Transition {
   display: flex;
   align-items: center;
@@ -412,3 +411,34 @@ html.theme-dark {
     border-radius: var(--radius);
     background-image: linear-gradient(#ffffff -300%, rgb(135,116,225));
 }
+
+/* базовый статус */
+.info .status {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  position: relative;
+}
+
+/* скрываем "members", если есть состояние typing */
+.info .status.typing .group-status {
+  display: none;
+}
+
+/* выводим "typing..." с анимацией точек */
+.info .status.typing::after {
+  content: "typing";
+  display: inline-block;
+  margin-left: 0;
+  animation: dots 1.2s infinite steps(4);
+  color: rgb(135,116,225);
+  font-weight: 500;
+}
+
+@keyframes dots {
+  0%   { content: "typing"; }
+  25%  { content: "typing."; }
+  50%  { content: "typing.."; }
+  75%  { content: "typing..."; }
+  100% { content: "typing"; }
+}
+
