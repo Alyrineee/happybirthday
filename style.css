@@ -442,3 +442,16 @@ html.theme-dark {
   100% { content: "typing"; }
 }
 
+{
+    "position": "UTG",
+    "hole_cards": ["Ks", "Qs"],
+    "pot": 24.5,
+    "history": {
+        "preflop": ["UTG call", "SB call", "BB check"],
+        "flop": ["BB raise 5"],
+        "turn": [],
+        "river": []
+    },
+    "street": "flop",
+    "board": ["Qd", "Qc", "Kc"]
+}
